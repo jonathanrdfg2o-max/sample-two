@@ -1,14 +1,30 @@
 Custom Memory Pool + Debug Tool (C)
+==================================
 
-Build:
+✔ Render-ready (Background Worker)
+✔ No external dependencies
+✔ CLI-based debugging output
+✔ Detects:
+    - Memory leaks
+    - Double free
+    - Invalid free
+
+--------------------
+Render Deployment
+--------------------
+Service Type: Background Worker
+
+Build Command:
     gcc main.c mempool.c -o mempool_demo
 
-Run:
+Start Command:
     ./mempool_demo
 
-Features:
-- Custom fixed-size memory pool
-- Allocation / free tracking
-- Detects double free and memory leaks
-- Simple command-line rendering of reports
-- No external dependencies
+The program is expected to EXIT normally.
+Logs are visible in Render dashboard.
+
+--------------------
+Local Build
+--------------------
+    gcc main.c mempool.c -o mempool_demo
+    ./mempool_demo
