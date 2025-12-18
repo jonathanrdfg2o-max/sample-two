@@ -5,10 +5,10 @@ Custom Memory Pool & Debugger (C + Render)
 
 این سیستم امکان تخصیص و آزادسازی سریع حافظه را فراهم کرده و به‌صورت خودکار Memory Leak و Double Free را تشخیص می‌دهد.
 
-پروژه به‌صورت یک ابزار CLI طراحی شده و برای نمایش خروجی واقعی، به‌عنوان Background Worker روی Render اجرا شده است.
+این پروژه به‌صورت CLI اجرا می‌شود و Live URL ندارد؛
+خروجی اجرای واقعی آن در محیط Cloud (Render) در تصویر زیر قابل مشاهده است.
+![Memory Pool Debug Output](https://github.com/jonathanrdfg2o-max/sample-two/blob/main/docs/render-log-demo.png)
 
-[Demo (Render Logs)
-](https://github.com/jonathanrdfg2o-max/sample-two/blob/main/docs/render-log-demo.png)
 این پروژه به‌صورت CLI اجرا می‌شود و به‌صورت طراحی‌شده فاقد Live URL است.
 
 معرفی پروژه – امکانات
