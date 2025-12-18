@@ -1,30 +1,38 @@
-Custom Memory Pool + Debug Tool (C)
-==================================
+Custom Memory Pool & Debugger (C + Render)
 
-✔ Render-ready (Background Worker)
-✔ No external dependencies
-✔ CLI-based debugging output
-✔ Detects:
-    - Memory leaks
-    - Double free
-    - Invalid free
+این پروژه یک Custom Memory Pool low-level در زبان C است که همراه با یک ابزار داخلی برای Debugging حافظه پیاده‌سازی شده است.
+تمرکز اصلی پروژه روی کنترل دستی حافظه، Performance و تشخیص خطاهای رایج حافظه بدون استفاده از ابزارهای خارجی می‌باشد.
 
---------------------
-Render Deployment
---------------------
-Service Type: Background Worker
+این سیستم امکان تخصیص و آزادسازی سریع حافظه را فراهم کرده و به‌صورت خودکار Memory Leak و Double Free را تشخیص می‌دهد.
 
-Build Command:
-    gcc main.c mempool.c -o mempool_demo
+پروژه به‌صورت یک ابزار CLI طراحی شده و برای نمایش خروجی واقعی، به‌عنوان Background Worker روی Render اجرا شده است.
 
-Start Command:
-    ./mempool_demo
+[Demo (Render Logs)
+](https://github.com/jonathanrdfg2o-max/sample-two/blob/main/docs/render-log-demo.png)
+این پروژه به‌صورت CLI اجرا می‌شود و به‌صورت طراحی‌شده فاقد Live URL است.
 
-The program is expected to EXIT normally.
-Logs are visible in Render dashboard.
+معرفی پروژه – امکانات
 
---------------------
-Local Build
---------------------
-    gcc main.c mempool.c -o mempool_demo
-    ./mempool_demo
+این سیستم قابلیت‌های زیر را دارد:
+
+پیاده‌سازی Custom Memory Pool بدون وابستگی خارجی
+
+تخصیص سریع حافظه از Pool ثابت
+
+تشخیص Double Free در زمان اجرا
+
+تشخیص Memory Leak در پایان برنامه
+
+گزارش خوانا از وضعیت حافظه
+
+مناسب برای System Programming و پروژه‌های Performance-sensitive
+
+🛠 پیش‌نیازها
+
+GCC یا C Compiler سازگار
+
+Linux / macOS / Windows
+
+نصب و اجرا
+gcc main.c mempool.c -o mempool_demo
+./mempool_demo
