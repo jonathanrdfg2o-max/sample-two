@@ -35,4 +35,5 @@ Linux / macOS / Windows
 
 نصب و اجرا
 gcc main.c mempool.c -o mempool_demo
+
 ./mempool_demo
