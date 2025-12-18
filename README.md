@@ -33,7 +33,9 @@ GCC یا C Compiler سازگار
 
 Linux / macOS / Windows
 
-نصب و اجرا
-gcc main.c mempool.c -o mempool_demo
+## نصب و اجرا
 
+```bash
+gcc main.c mempool.c -o mempool_demo
 ./mempool_demo
+
