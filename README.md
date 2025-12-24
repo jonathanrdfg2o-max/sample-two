@@ -12,7 +12,7 @@
 
 با این حال، خروجی اجرای پروژه در محیط Cloud (Render) در تصویر زیر قابل مشاهده است.
 
-![Concurrent Log Analyzer Output](https://github.com/garryand182-cmyk/gig-one/blob/main/docs/1.png)
+![Concurrent Log Analyzer Output](https://raw.githubusercontent.com/garryand182-cmyk/gig-one/main/docs/1.png)
 
 ## معرفی پروژه – امکانات
 
