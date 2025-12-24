@@ -39,3 +39,7 @@ Memory Pool Debug Output
 کامپایل:
 ```bash
 gcc main.c mempool.c -o mempool_demo
+
+اجرا:
+
+./mempool_demo
