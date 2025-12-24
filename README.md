@@ -44,3 +44,15 @@
 ### بیلد پروژه
 ```bash
 mvn clean package
+
+یا با Maven Wrapper:
+
+./mvnw clean package
+
+اجرای برنامه
+java -cp target/concurrent-log-analyzer-1.0.0.jar com.example.loganalyzer.Main <log-folder>
+
+
+مثال:
+
+java -cp target/concurrent-log-analyzer-1.0.0.jar com.example.loganalyzer.Main logs/
